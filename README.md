@@ -15,7 +15,7 @@ Comprehensive performance data for the RAMNet inference engine and the relaxatio
   <img src="results/technical_spec_sheet.png" alt="RA-DT Technical Spec Sheet" width="800">
 </p>
 
-> **Note:** The RAMNet engine is optimized for Edge BMS deployment with only 675 trainable parameters, achieving 99.81% accuracy on the 7,193-cycle dataset.
+> **Note:** The RAMNet engine is optimized for Edge BMS deployment with only 675 trainable parameters.
 ---
 ## 🔬 The Physics: "Un-aging" via Reverse Polarization
 
@@ -83,6 +83,9 @@ The RA-DT follows a rigorous Cyber-Physical pipeline:
 
 ## 📂 Repository Structure
 
+## 📂 Repository Structure
+
+```text
 .
 ├── data/
 │   ├── schema.sql                 # MySQL Database Blueprint (Table Structures)
