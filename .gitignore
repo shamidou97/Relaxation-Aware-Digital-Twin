@@ -1,0 +1,50 @@
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- Database & Local Config ---
+*.log
+*.sql
+# Un-comment the line below if you want to keep your schema.sql on GitHub 
+# but hide other local SQL dumps.
+# !data/schema.sql
+
+# --- Large Datasets (Physics Data) ---
+# We ignore .mat files to keep the repo lean. 
+# Users should download these from the XJTU/NASA source.
+*.mat
+*.csv
+*.xlsx
+
+# --- IDE & OS Junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Model Weights (Optional) ---
+# If you want to keep your best model on GitHub, 
+# keep the line below commented.
+# models/*.pth
+
+# --- Visualization Artifacts ---
+# Usually, we don't track every run's PNGs to avoid repo bloat.
+results/*.png
