@@ -9,11 +9,8 @@ Traditional State-of-Health (SoH) models assume degradation is strictly linear. 
 
 ---
 ## 📊 Technical Specifications (v5.8)
-Comprehensive performance data for the RAMNet inference engine and the relaxation-aware framework.
 
-<p align="center">
-  <img src="results/technical_spec_sheet.png" alt="RA-DT Technical Spec Sheet" width="800">
-</p>
+![RA-DT Technical Spec Sheet](results/technical_spec_sheet.png)
 
 > **Note:** The RAMNet engine is optimized for Edge BMS deployment with only 675 trainable parameters.
 ---
@@ -80,8 +77,6 @@ The RA-DT follows a rigorous Cyber-Physical pipeline:
  3. **Virtual Memory**: Storage of features in a relational MySQL schema.
  4. **Inference**: Deep Learning (PyTorch) mapping of features to Markov States ($S_0, S_1, S_2$).
 
-
-## 📂 Repository Structure
 
 ## 📂 Repository Structure
 
